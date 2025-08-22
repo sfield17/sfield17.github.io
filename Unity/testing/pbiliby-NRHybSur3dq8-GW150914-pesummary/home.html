@@ -125,21 +125,21 @@ The figures below show the plots for NRHybSur3dq8
     </div>
   </div>
 </div>
-<div class='modal fade bs-example-modal-lg' tabindex='-1' role='dialog' aria-labelledby='myLargeModalLabel' aria-hidden='true' id='Modal_972C4A' style='margin-top: 200px;'>
+<div class='modal fade bs-example-modal-lg' tabindex='-1' role='dialog' aria-labelledby='myLargeModalLabel' aria-hidden='true' id='Modal_EA71B0' style='margin-top: 200px;'>
   <div class='modal-dialog modal-lg' style='width:90%'>
     <div class='modal-content'>
-      <div id='demo_972C4A' class='carousel slide' data-ride='carousel' data-interval='false'>
+      <div id='demo_EA71B0' class='carousel slide' data-ride='carousel' data-interval='false'>
         <ul class='carousel-indicators'>
-          <li data-target='#demo_972C4A' data-slide-to='0' class='active'></li>
-          <li data-target='#demo_972C4A' data-slide-to='1'></li>
-          <li data-target='#demo_972C4A' data-slide-to='2'></li>
+          <li data-target='#demo_EA71B0' data-slide-to='0' class='active'></li>
+          <li data-target='#demo_EA71B0' data-slide-to='1'></li>
+          <li data-target='#demo_EA71B0' data-slide-to='2'></li>
         </ul>
         <div class='carousel-inner'>
         </div>
-        <a class='carousel-control-prev' href='#demo_972C4A' data-slide='prev'>
+        <a class='carousel-control-prev' href='#demo_EA71B0' data-slide='prev'>
           <span class='carousel-control-prev-icon'></span>
         </a>
-        <a class='carousel-control-next' href='#demo_972C4A' data-slide='next'>
+        <a class='carousel-control-next' href='#demo_EA71B0' data-slide='next'>
           <span class='carousel-control-next-icon'></span>
         </a>
       </div>
@@ -201,21 +201,21 @@ Meta data extracted from each result file
                             <tr>
                               <th colspan='1'>label</th>
                               <th colspan='1'>f_ref</th>
-                              <th colspan='1'>calibration_marginalization</th>
+                              <th colspan='1'>time_marginalization</th>
+                              <th colspan='1'>phase_marginalization</th>
                               <th colspan='1'>distance_marginalization</th>
-                              <th colspan='1'>duration</th>
+                              <th colspan='1'>calibration_marginalization</th>
+                              <th colspan='1'>waveform_generator_class</th>
                               <th colspan='1'>frequency_domain_source_model</th>
+                              <th colspan='1'>time_domain_source_model</th>
+                              <th colspan='1'>parameter_conversion</th>
+                              <th colspan='1'>sampling_frequency</th>
+                              <th colspan='1'>duration</th>
+                              <th colspan='1'>start_time</th>
+                              <th colspan='1'>time_reference</th>
+                              <th colspan='1'>reference_frame</th>
                               <th colspan='1'>lal_version</th>
                               <th colspan='1'>lalsimulation_version</th>
-                              <th colspan='1'>parameter_conversion</th>
-                              <th colspan='1'>phase_marginalization</th>
-                              <th colspan='1'>reference_frame</th>
-                              <th colspan='1'>sampling_frequency</th>
-                              <th colspan='1'>start_time</th>
-                              <th colspan='1'>time_domain_source_model</th>
-                              <th colspan='1'>time_marginalization</th>
-                              <th colspan='1'>time_reference</th>
-                              <th colspan='1'>waveform_generator_class</th>
                               <th colspan='1'>approximant_flags</th>
                               <th colspan='1'>approximant</th>
                               <th colspan='1'>IFOs</th>
@@ -232,21 +232,21 @@ Meta data extracted from each result file
                             <tr>
                               <td>NRHybSur3dq8</td>
                               <td>20</td>
+                              <td>True</td>
                               <td>False</td>
                               <td>True</td>
+                              <td>False</td>
+                              <td><class 'bilby.gw.waveform_generator.LALCBCWaveformGenerator'></td>
+                              <td><function lal_binary_black_hole at 0x72e183300430></td>
+                              <td>None</td>
+                              <td><function convert_to_lal_binary_black_hole_parameters at 0x72e1832a91b0></td>
+                              <td>4096.0</td>
                               <td>4.0</td>
-                              <td><function lal_binary_black_hole at 0x7ff1943149d0></td>
+                              <td>1126259460.3908691</td>
+                              <td>geocent</td>
+                              <td>H1L1</td>
                               <td>lal_version=7.6.1, lal_git_version=Branch: None;Tag: lal-v7.6.1;Id: 31af23159ed7c6557180f58ad3f39a06e5a08731;;Builder: Adam Mercer <adam.mercer@ligo.org>;Repository status: CLEAN: All modifications committed</td>
                               <td>lalsimulation_version=6.1.0, lalsimulation_git_version=Branch: None;Tag: lalsimulation-v6.1.0;Id: 8041734408377ca999821f7e372e2a02e9226e6b;;Builder: Adam Mercer <adam.mercer@ligo.org>;Repository status: CLEAN: All modifications committed</td>
-                              <td><function convert_to_lal_binary_black_hole_parameters at 0x7ff1942f1750></td>
-                              <td>False</td>
-                              <td>H1L1</td>
-                              <td>4096.0</td>
-                              <td>1126259460.3908691</td>
-                              <td>None</td>
-                              <td>True</td>
-                              <td>geocent</td>
-                              <td><class 'bilby.gw.waveform_generator.LALCBCWaveformGenerator'></td>
                               <td>{}</td>
                               <td>NRHybSur3dq8</td>
                               <td>H1 L1</td>
@@ -255,9 +255,9 @@ Meta data extracted from each result file
                               <td>0.00390625</td>
                               <td>20.0</td>
                               <td>Planck15</td>
-                              <td>['function bbh_final_spin_precessing_projected_UIB2016 at 0x7ff182ce7880', 'function bbh_final_spin_precessing_projected_Healyetal at 0x7ff182ce76d0', 'function bbh_final_spin_precessing_HBR2016 at 0x7ff182ce7a30']</td>
-                              <td>['function bbh_peak_luminosity_non_precessing_UIB2016 at 0x7ff182ce7ac0', 'function bbh_peak_luminosity_non_precessing_Healyetal at 0x7ff182ce7b50']</td>
-                              <td>['function bbh_final_mass_non_precessing_UIB2016 at 0x7ff182ce7010', 'function bbh_final_mass_non_precessing_Healyetal at 0x7ff182ce5bd0']</td>
+                              <td>['function bbh_final_spin_precessing_projected_UIB2016 at 0x72e18249f1c0', 'function bbh_final_spin_precessing_projected_Healyetal at 0x72e18249f010', 'function bbh_final_spin_precessing_HBR2016 at 0x72e18249f370']</td>
+                              <td>['function bbh_peak_luminosity_non_precessing_UIB2016 at 0x72e18249f400', 'function bbh_peak_luminosity_non_precessing_Healyetal at 0x72e18249f490']</td>
+                              <td>['function bbh_final_mass_non_precessing_UIB2016 at 0x72e18249e950', 'function bbh_final_mass_non_precessing_Healyetal at 0x72e18249d510']</td>
                             </tr>
                           </tbody>
                         </table>
@@ -285,7 +285,7 @@ Meta data extracted from each result file
       </div>
     </div>
     <div class='col-sm-7'>
-<p style='color: #E8E8E8; font-weight: bold; font-family: arial-body; margin-top:14px'>This page was produced by sfield_umassd_edu at 14:07 on August 22 2025</p>
+<p style='color: #E8E8E8; font-weight: bold; font-family: arial-body; margin-top:14px'>This page was produced by sfield_umassd_edu at 14:39 on August 22 2025</p>
     </div>
   </div>
 </div>
